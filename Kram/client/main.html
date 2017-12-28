@@ -1,25 +1,64 @@
 <head>
   <title>Kram</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
 </head>
+<body class=landing>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+  <header id="header">
+    <h1><a href="main.html">Kram</a></h1>
+    <nav id="nav">
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="courses.html">Curriculum</a></li>
+        <li><a href="about.html">About Kram</a></li>
+        <li><a href="register.html" class="button special">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  {{> hello}}
-  {{> info}}
+  <div id="banner">
+    <h2>Hello. Welcome to Kram!</h2>
+    <p>This is Kram!</p>
+      <ul class="actions">
+        <li>
+          <a href="#one" class="button big">Check It Out!</a>
+        </li>
+      </ul>
+  </div>
+
+  <div id="one" class="wrapper style1 special">
+    <div class="container">
+      <header class="major">
+        <h2>(Section 2 Heading)</h2>
+        <p>(This is a breif description underneath the heading")</p>
+      </header>
+      <div class="row 150%">
+          <section class="box">
+            <i class="icon big rounded color1 fa-database"></i>
+            <h3>SubSection 1 Title</h3>
+            <p>Detailed desc of subsect 1.</p>
+          </section>
+          <section class="box">
+            <i class="icon big rounded color5 fa-user-circle"></i>
+            <h3>SubSection 2 Title</h3>
+            <p>Detailed description of subsection 2.</p>
+          </section>
+          <section class="box">
+            <i class="icon big rounded color3 fa-tasks"></i>
+            <h3>SubSection 3 Title</h3>
+            <p>Detailed description of subsection 3.</p>
+          </section>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="container">
+        <h2>Footer Test</h2>
+        <p><a href="#">Back to the top!</a></p>
+
+  </footer>
+
 </body>
-
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
-</template>
+  
