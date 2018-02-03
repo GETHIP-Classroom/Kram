@@ -21,7 +21,7 @@
             <a href="about.html">About Kram</a>
           </li>
           <li>
-            <a href="main.html" class="button special">Return</a>
+              <a href="register.html" class="button special" onclick="return false;">{{>login_Buttons}}</a>
           </li>
         </ul>
       </nav>
@@ -32,10 +32,10 @@
     <div class="container">
         
         {{#if currentUser}}
-          {{>loginButtons}}
+          <div class="loginButtons">{{>loginButtons}}</div>
           {{>profile}}
         {{else}}
-          {{> loginButtons}}
+          <div class="loginButtons">{{> loginButtons}}</div>
           {{>register}}
           <p>Already have an account?</p>
           {{>logIn}}
@@ -45,7 +45,7 @@
 
 <footer id="footer">
     <div class="container">
-      <h2>Footer Test</h2>
+        <h5>Kram project for Get Hip 2017-18</h5>
       <p>
         <a href="#">Back to the top!</a>
       </p>
@@ -110,3 +110,5 @@
         <p>hello world</p>
     </header>
 </template>
+
+<!--<a href="register.html" class="button special">Sign Up</a>    ((((LINK TO REGISTER.HTML, temp unused)))))-->

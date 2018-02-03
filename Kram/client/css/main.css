@@ -237,6 +237,8 @@ a {
 			text-decoration: none;
 		}
 
+
+
 /* Header */
 
 	body.landing #header {
@@ -389,12 +391,17 @@ a {
 		padding: 6em 0em 4em;
 	}
 
-		#footer h2, #footer h3, #footer h4 {
+		#footer h2, #footer h3, #footer h5 {
 			color: #ffffff;
+		}
+		#footer h6{
+			font-size:1000;
+			color:#cdced0;
 		}
 
 		#footer p, #footer a, #footer li {
 			color: #cdced0;
+			padding:0em, 0em, 0em, 0em;
 		}
 
 /* Body on aux pages */
@@ -582,8 +589,15 @@ hr {
 	  button.social-signin.github{
 		background: rgb(54, 53, 53);
 	  }	
-
+	
+	.loginButtons{
+		margin:0em, 0em, 250em, 250em;
+	}
 
 .landing #header{
 	background-color:#005960;
+}
+
+.login_buttons {
+	color: black;
 }
