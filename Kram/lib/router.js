@@ -26,3 +26,10 @@ FlowRouter.route("/profiles",{
     BlazeLayout.render("profilePage");
   }
 });
+FlowRouter.route("/tips",{
+  name: "tips",
+  action:function(){
+    document.title = "Tips";
+    BlazeLayout.render("tips");
+  }
+});
