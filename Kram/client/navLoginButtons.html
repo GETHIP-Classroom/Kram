@@ -1,8 +1,8 @@
 <template name="navLoginButtons">
 
         {{#if currentUser}}
-        <a href=profile.html>Profile</a>
+        <a href="/profiles" class="button special">Profile</a>
         {{else}}
-        {{> loginButtons align="right"}}
+        <a href="/" class="button special" onclick="return false;">{{> loginButtons align="right"}}</a>
         {{/if}}
-    </template>
+</template>
