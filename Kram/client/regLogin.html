@@ -1,0 +1,20 @@
+<head>
+    <title>regLogin</title>
+</head>
+
+<template name="regLogin">
+<section id="main" class="wrapper">
+        <div class="container">
+            
+            {{#if currentUser}}
+              <div class="loginButtons">{{>loginButtons}}</div>
+              {{>profile}}
+            {{else}}
+              <div class="loginButtons">{{> loginButtons}}</div>
+              {{>register}}
+              <p>Already have an account?</p>
+              {{>logIn}}
+            {{/if}}
+                </div>
+              </section>
+</template>

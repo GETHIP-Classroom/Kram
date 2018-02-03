@@ -1,0 +1,11 @@
+<head>
+    <title>navLoginButtons</title>
+</head>
+
+<template name="navLoginButtons">
+        {{#if currentUser}}
+        <a href=profile.html>Profile</a>
+        {{else}}
+        {{> loginButtons align="right"}}
+        {{/if}}
+    </template>

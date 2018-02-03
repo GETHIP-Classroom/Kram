@@ -2,59 +2,9 @@
   <title>About</title>
 </head>
 
-<body>
-  <div class=landing>
+<template name="about">
+  {{> navBar}}
+  {{> aboutBody}}
+  {{> footer}}
+</template>
 
-  <header id="header">
-    <h1>
-      <a href="main.html">Kram</a>
-    </h1>
-    <nav id="nav">
-      <ul>
-        <li>
-          <a href="main.html">Home</a>
-        </li>
-        <li>
-          <a href="courses.html">Courses</a>
-        </li>
-        <li>
-          <a href="about.html">About Kram</a>
-        </li>
-        <li>
-            <a href="register.html" class="button special" onclick="return false;">{{>login_Buttons}}</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  </div>
-
-  <section id="main" class="wrapper">
-    <div class="container">
-
-      <header class="major">
-        <h2>About Kram</h2>
-      </header>
-
-      <p>
-        Kram is a tool to enhance the experience of studying for the ACT. As an organization our mission is to individualize
-        our programs to our users so the can have the best time possible. Kram was created by six high school students as apart
-        of the Gallup Education Taskforce High School Internship Program, their overall goal was to make the grueling task of studying
-        for the ACT on students across the country.
-        <br><a href="http://managr.gallupgethip.com/home"> GetHip Website</a>
-        <br>
-        <br>
-        <br>Kram was developed by Gabi Jaapar, Yash Fichadia, Sam Bloomingdale, Konnor Filip, Jacob Collins, and Ahbinav Jaddu
-      </p>
-    </div>
-  </section>
-
-  <footer id="footer">
-    <div class="container">
-        <h5>Kram project for Get Hip 2017-18</h5>
-      <p>
-        <a href="#">Back to the top!</a>
-      </p>
-    </div>
-  </footer>
-
-</body>

@@ -1,0 +1,29 @@
+<head>
+    <title>navBar</title>
+</head>
+
+<template name="navBar">
+<div class=landing>
+        <header id="header">
+          <h1>
+            <a href="main.html">Kram</a>
+          </h1>
+          <nav id="nav">
+            <ul>
+              <li>
+                <a href="main.html">Home</a>
+              </li>
+              <li>
+                <a href="programs.html">Courses</a>
+              </li>
+              <li>
+                <a href="about.html">About Kram</a>
+              </li>
+              <li>
+                  <a href="register.html" class="button special" onclick="return false;">{{> navLoginButtons}}</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+</template>
