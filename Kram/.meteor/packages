@@ -23,6 +23,7 @@ accounts-ui
 blaze-html-templates
 google-config-ui
 kadira:flow-router
+kadira:blaze-layout
 accounts-password
 accounts-github
 github-config-ui
