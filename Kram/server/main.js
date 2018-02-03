@@ -1,5 +1,8 @@
-import { Meteor } from 'meteor/meteor';
-
-Meteor.startup(() => {
-  // code to run on server at startup
-});
+if (Meteor.isClient) {
+  Template.register.events({
+      'submit form': function(event) {
+          event.preventDefault();
+          console.log("Form submitted.");
+      }
+  });
+}
