@@ -409,9 +409,30 @@ hr {
 }
 
 /* Registration */
+
 .register {
 	text-align:center;
 }
+	#loginbox{
+		position: relative;
+		margin: 5% auto;
+		width: 320px;
+		height: 350px;
+		background: #FFF;
+		border-radius: 2px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	}
+
+	.center {
+		position: absolute;
+		top: 0;
+		left: 0;
+		box-sizing: border-box;
+		padding: 50px;
+		width: 300px;
+		height: 400px;
+		text-align: center;
+	}
 
 	#login-box {
 		position: relative;
@@ -440,7 +461,9 @@ hr {
 	  }
 	  
 	  input[type="text"],
-	  input[type="password"] {
+	  input[type="password"],
+	  input[type="email"],
+	  input[type="username"] {
 		display: block;
 		box-sizing: border-box;
 		margin-bottom: 20px;
@@ -456,7 +479,9 @@ hr {
 	  }
 	  
 	  input[type="text"]:focus,
-	  input[type="password"]:focus {
+	  input[type="password"]:focus,
+	  input[type="email"]:focus,
+	  input[type="username"]:focus {
 		border-bottom: 2px solid #005960;
 		color: #005960;
 		transition: 0.2s ease;
