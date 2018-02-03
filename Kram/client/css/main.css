@@ -304,8 +304,18 @@ a {
 						text-decoration: none;
 					}
 
+					#header nav > ul > li .Login a {
+						color: #005960;
+						display: inline-block;
+						text-decoration: none;
+					}
+
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
                             color: #ffffff;
+						}
+						
+						#header nav > ul > li a:active, #header nav > ul > li .Login a:hover {
+                            color: #b8b8b8;
                         }
                         
 					#header nav > ul > li .button {
@@ -334,6 +344,7 @@ a {
 
 			#main.wrapper .container  p {
 				text-align: center;
+				padding: 0px 50px 0px 0px;
 			}
 
 			#one.wrapper.style1.special .container {
@@ -388,7 +399,7 @@ a {
 
 	#footer {
 		background: #005960;
-		padding: 6em 0em 4em;
+		padding: 6em 0em 4em ;
 	}
 
 		#footer h2, #footer h3, #footer h5 {
@@ -402,6 +413,16 @@ a {
 		#footer p, #footer a, #footer li {
 			color: #cdced0;
 			padding:0em, 0em, 0em, 0em;
+		}
+
+		#footer .contact{
+			display: block;
+			text-align: right;
+			padding: 0px 25px 0px 0px;
+		}
+
+		#footer .contact p2{
+			color:rgb(216, 216, 216);
 		}
 
 /* Body on aux pages */
