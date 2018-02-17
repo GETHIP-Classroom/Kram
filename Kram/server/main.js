@@ -1,8 +1,7 @@
-if (Meteor.isClient) {
-  Template.register.events({
-      'submit form': function(event) {
-          event.preventDefault();
-          console.log("Form submitted.");
-      }
-  });
-}
+import { Profiles } from "../collections/profiles.js";
+
+Meteor.startup(function() {
+    Meteor.publish("Profiles", function() {
+        return Profiles.find({ userId: this.userId });
+    });
+});
