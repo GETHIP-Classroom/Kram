@@ -1,0 +1,24 @@
+<template name="gameSelector">
+    <section id="main" class="wrapper">
+        <div class="container">
+
+          <header class="major">
+            <h2>Games</h2>
+            <p>Play some games and earn some Coins!</p>
+          </header>
+
+          <a href="/Matching" class="button special">Matching</a>
+          <a href="/Hangman" class="button special">Hangman</a>
+          <a href="/Jeopardy" class="button special">Jeopardy</a>
+
+          <div class="leaderboard" id="gameSelector">
+          <header class="major">
+              <h2>Leaderboard</h2>
+          </header>
+
+            {{>lbElement}}
+
+          </div>
+        </div>
+      </section>
+</template>

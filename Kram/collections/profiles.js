@@ -1,3 +1,5 @@
+import SimpleSchema from 'simpl-schema';
+
 export const Profiles=new Mongo.Collection("Profiles");
 
 profileSchema=new SimpleSchema({

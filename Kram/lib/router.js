@@ -33,3 +33,27 @@ FlowRouter.route("/tips",{
     BlazeLayout.render("tips");
   }
 });
+
+FlowRouter.route("/leaderboard",{
+  name: "leaderboard",
+  action:function(){
+    document.title = "Leaderboard";
+    BlazeLayout.render("leaderboard");
+  }
+});
+
+FlowRouter.route("/games",{
+  name: "Games",
+  action:function(){
+    document.title = "Games";
+    BlazeLayout.render("games");
+  }
+});
+
+FlowRouter.route("/Matching",{
+  name: "Matching",
+  action:function(){
+    document.title = "Matching";
+    BlazeLayout.render("matchGame");
+  }
+});
