@@ -57,3 +57,11 @@ FlowRouter.route("/Matching",{
     BlazeLayout.render("matchGame");
   }
 });
+
+FlowRouter.route("/questions",{
+  name: "questions",
+  action:function(){
+    document.title = "PracticeQuiz";
+    BlazeLayout.render("questions");
+  }
+});
