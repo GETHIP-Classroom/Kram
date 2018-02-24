@@ -342,13 +342,26 @@ a {
 				right: 0;
 			}
 
-			#main.wrapper .container  p {
+			#main.wrapper .container {
 				text-align: center;
-				padding: 0px 50px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				list-style-position: inside;
 			}
 
+			#main.wrapper .container p {
+				padding: 0px 20px 0px 0px;
+			}
 			#one.wrapper.style1.special .container {
 				text-align:center;
+				
+			}
+
+			#one.wrapper.style1.special .container img {
+				padding: 0px 0px 0px 50px;
+			}
+
+			#one.wrapper.style1.special .container h2, p {
+				padding: 0px 25px 0px 0px;
 			}
 
 /* Banner */
@@ -365,7 +378,7 @@ a {
 			color: #ffffff;
 			font-size: 4em;
 			line-height: 1.25em;
-			margin: 0 0 0.5em 0;
+			margin: 0px 0px 0px 0px;
 			padding: 0;
 		}
 
@@ -608,4 +621,19 @@ hr {
 
 .login_buttons {
 	color: black;
+}
+
+
+.leaderboard#gameSelector{
+	padding: 75px 0px 0px 0px;
+}
+
+.lbElement#lb{
+	border:5px solid rgb(0, 0, 0);
+	border-radius: 25px;
+	
+}
+
+.lbElement#lb h4{
+	padding: 10px 0px 0px 0px;
 }
