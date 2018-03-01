@@ -40,3 +40,10 @@ FlowRouter.route("/questions",{
     BlazeLayout.render("questions");
   }
 });
+FlowRouter.route("/quiz",{
+  name: "quiz",
+  action:function(){
+    document.title = "quiz";
+    BlazeLayout.render("quiz");
+  }
+});
