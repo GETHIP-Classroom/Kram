@@ -5,14 +5,21 @@
             <header class="major">
               <h1> English Practice Quiz </h1>
 
-            <p>  {{currentQuestion.question}} </p>
+
+              <p>{{currentQuestion.question}}</p>
               <table class="row">
               {{#each currentQuestion.answers}}
                 <tr>
-                    <td> {{this}} </td>
+                    <td class="{{color}}"> {{answer}} </td>
                     <td><input type="radio" name="answer"></td>
                 </tr>
               {{/each}}
+              <tr>
+                <br>
+                  <td><a href="/quiz" id="nextButton" class="button big">
+                    Next </a></td>
+                  <td></td>
+              </tr>
               </table>
             </header>
           </div>
