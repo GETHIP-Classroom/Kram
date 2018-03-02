@@ -643,3 +643,11 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+.correctAnswer {
+    background-color: black;
+    color: rgb(0,255,0);
+}
+.incorrectAnswer {
+    background-color: black;
+    color: red;
+}
