@@ -1,4 +1,5 @@
 import { Profiles } from "../collections/profiles.js";
+import { Questions } from "../collections/questions.js";
 
 function createProfile(id) {
     if (Profiles.find({ userId: id }).count() > 0) {
@@ -30,7 +31,9 @@ Meteor.startup(function() {
     Meteor.publish("Profiles", function() {
         return Profiles.find({ userId: this.userId });
     });
-
+    Meteor.publish("Questions", function() {
+        return Questions.find();
+    });
     Meteor.methods({
         'addCoins':function(id, count) {
             let profile = Profiles.findOne({ userId: id });

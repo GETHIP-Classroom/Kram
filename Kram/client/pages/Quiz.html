@@ -1,12 +1,17 @@
-<template name="questions">
+<template name="quiz">
   {{> navBar}}
   <section id="main" class="wrapper">
           <div class="container">
             <header class="major">
               <h1> English Practice Quiz </h1>
 
-                <a href="/quiz" class="button big">Start Here!</a>
+              {{currentQuestion.question}}
+              {{#each currentQuestion.answers}}
+              <div>
+                <p> {{this}} </p><input type="radio" name="answer">
 
+              </div>
+              {{/each}}
             </header>
           </div>
   </section>

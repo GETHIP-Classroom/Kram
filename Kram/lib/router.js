@@ -65,3 +65,11 @@ FlowRouter.route("/questions",{
     BlazeLayout.render("questions");
   }
 });
+
+FlowRouter.route("/quiz",{
+  name: "quiz",
+  action:function(){
+    document.title = "PracticeQuiz";
+    BlazeLayout.render("quiz");
+  }
+});
