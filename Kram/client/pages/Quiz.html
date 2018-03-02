@@ -6,12 +6,14 @@
               <h1> English Practice Quiz </h1>
 
               {{currentQuestion.question}}
+              <table class="row">
               {{#each currentQuestion.answers}}
-              <div>
-                <p> {{this}} </p><input type="radio" name="answer">
-
-              </div>
+                <tr>
+                    <td><p> {{this}} </p></td>
+                    <td><input type="radio" name="answer"></td>
+                </tr>
               {{/each}}
+              </table>
             </header>
           </div>
   </section>

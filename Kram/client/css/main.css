@@ -6,7 +6,7 @@ body{
 }
 
 body, input, select, textarea {
-    color:#445; 
+    color:#445;
     font-family:"Raleway", Helvetica, sans-serif;
     font-size: 13pt;
 	font-weight: 400;
@@ -86,7 +86,7 @@ a {
 		header.major p {
 			font-size: 1.5em;
 		}
-        
+
 /* Box */
 .box{
 	border-radius: 4px;
@@ -313,11 +313,11 @@ a {
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
                             color: #ffffff;
 						}
-						
+
 						#header nav > ul > li a:active, #header nav > ul > li .Login a:hover {
                             color: #b8b8b8;
                         }
-                        
+
 					#header nav > ul > li .button {
 						background-color: #fff;
 						color: #444 !important;
@@ -353,7 +353,7 @@ a {
 			}
 			#one.wrapper.style1.special .container {
 				text-align:center;
-				
+
 			}
 
 			#one.wrapper.style1.special .container img {
@@ -407,7 +407,7 @@ a {
 				.wrapper.style1 .box h2, .wrapper.style1 .box h3, .wrapper.style1 .box h4, .wrapper.style1 .box h5, .wrapper.style1 .box h6 {
 					color: #858585;
                 }
-                
+
 /* Footer */
 
 	#footer {
@@ -445,7 +445,7 @@ a {
 
 }
 hr {
-	width:100%; height:1px; background: #fff 
+	width:100%; height:1px; background: #fff
 
 }
 
@@ -484,7 +484,7 @@ hr {
 		border-radius: 2px;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 	  }
-	  
+
 	  .left {
 		position: absolute;
 		top: 0;
@@ -494,13 +494,13 @@ hr {
 		width: 300px;
 		height: 400px;
 	  }
-	  
+
 	  h1 {
 		margin: 0 0 20px 0;
 		font-weight: 300;
 		font-size: 28px;
 	  }
-	  
+
 	  input[type="text"],
 	  input[type="password"],
 	  input[type="email"],
@@ -518,7 +518,7 @@ hr {
 		font-size: 15px;
 		transition: 0.2s ease;
 	  }
-	  
+
 	  input[type="text"]:focus,
 	  input[type="password"]:focus,
 	  input[type="email"]:focus,
@@ -527,7 +527,7 @@ hr {
 		color: #005960;
 		transition: 0.2s ease;
 	  }
-	  
+
 	  input[type="submit"] {
 		background-color: #005960;
 		border-radius: 30px;
@@ -543,20 +543,20 @@ hr {
 		text-decoration: none;
 		white-space: nowrap;
 	  }
-	  
+
 	  input[type="submit"]:hover,
 	  input[type="submit"]:focus {
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 		background-color: #51b6d9;
 		text-decoration: none;
 	  }
-	  
+
 	  input[type="submit"]:active {
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 		background-color: #51b6d9;
 		text-decoration: none;
 	  }
-	  
+
 	  .right {
 		position: absolute;
 		top: 0;
@@ -570,7 +570,7 @@ hr {
 		background-position: center;
 		border-radius: 0 2px 2px 0;
 	  }
-	  
+
 	  .right .loginwith {
 		display: block;
 		margin-bottom: 40px;
@@ -578,7 +578,7 @@ hr {
 		color: #FFF;
 		text-align: center;
 	  }
-	  
+
 	  button.social-signin {
 		margin-bottom: 20px;
 		width: 220px;
@@ -591,13 +591,13 @@ hr {
 		transition: 0.2s ease;
 		cursor: pointer;
 	  }
-	  
+
 	  button.social-signin:hover,
 	  button.social-signin:focus {
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 		transition: 0.2s ease;
 	  }
-	  
+
 	  button.social-signin:active {
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 		transition: 0.2s ease;
@@ -605,12 +605,12 @@ hr {
 
 	  button.social-signin.google {
 		background: #DD4B39;
-	  }	  
-	  
+	  }
+
 	  button.social-signin.github{
 		background: rgb(54, 53, 53);
-	  }	
-	
+	  }
+
 	.loginButtons{
 		margin:0em, 0em, 250em, 250em;
 	}
@@ -631,9 +631,15 @@ hr {
 .lbElement#lb{
 	border:5px solid rgb(0, 0, 0);
 	border-radius: 25px;
-	
+
 }
 
 .lbElement#lb h4{
 	padding: 10px 0px 0px 0px;
+}
+
+.row {
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
 }
